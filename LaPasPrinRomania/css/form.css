@@ -1,0 +1,55 @@
+﻿.formLabel {
+    display: inline-block;
+    float: left;
+    width: 5%;
+}
+
+.formText {
+    display: inline-block;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .7em 1em;
+    margin-bottom: 1.5em;
+    border: solid 1px #999;
+    float: left;
+    width:40.5%;
+}
+
+    .formLabel:hover, .formText:hover {
+        border-bottom-color: #f30d60;
+        border-left-color: #f30d60;
+    }
+
+.formArea {
+    display: inline-block;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .7em 1em;
+    margin-bottom: 1.5em;
+    border: solid 1px #999;
+    float: left;
+    width: 80%;
+}
+
+.formSubmit {
+    outline: none;
+    color: #fff;
+    padding: 0.8em 4em;
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #0fdfe2;
+    border: 2px solid #0fdfe2;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 100%;
+}
+
+    .formSubmit:hover {
+        background: none;
+        color: #f30d60;
+        border-color: #f30d60;
+    }

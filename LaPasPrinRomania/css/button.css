@@ -1,0 +1,15 @@
+﻿.buttonn {
+    background-color: #4EC6DE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+    .buttonn:hover {
+        background-color: #00ff90;
+        color: white;
+    }

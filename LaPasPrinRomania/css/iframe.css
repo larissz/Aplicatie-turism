@@ -1,0 +1,23 @@
+﻿@media screen and (max-width: 1024px) {
+    .iframe {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .iframe{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 824px) {
+    .iframe {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .iframe {
+        display: none;
+    }
+}

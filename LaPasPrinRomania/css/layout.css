@@ -1,0 +1,29 @@
+﻿.contt {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+}
+
+.imagess {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 650px) {
+    .contt {
+        display: block;
+        font-size: 80%;
+    }
+
+     .paragraph {
+        position: relative;
+        margin: -3rem 0 2rem 1rem;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.8);
+    }
+}
